@@ -11,6 +11,11 @@
     <modules>
         <module>code-design-pattern</module>
         <module>code-in-java</module>
+        <module>code-logger</module>
+        <module>code-async</module>
+        <module>code-io</module>
+        <module>code-jvm</module>
+        <module>code-rpc</module>
     </modules>
 
     <dependencies>
