@@ -16,6 +16,8 @@
         <module>code-io</module>
         <module>code-jvm</module>
         <module>code-rpc</module>
+        <module>code-redis</module>
+        <module>code-dubbo</module>
     </modules>
 
     <dependencies>
