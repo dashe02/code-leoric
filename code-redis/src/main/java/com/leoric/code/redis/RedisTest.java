@@ -8,8 +8,12 @@ import redis.clients.jedis.Jedis;
 public class RedisTest {
 
     public static void main(String[] args) {
-        Jedis jedis = new Jedis("172.17.0.2", 6379);
-        String test = jedis.get("test");
-        System.out.println(test);
+        Jedis jedis = new Jedis("127.0.0.1", 5000);
+        String result = jedis.set("test", "test2");
+        System.out.println(result);
+        if ("OK".equals(result)) {
+            String value = jedis.get("test");
+            System.out.println(value);
+        }
     }
 }

@@ -18,6 +18,7 @@
         <module>code-rpc</module>
         <module>code-redis</module>
         <module>code-dubbo</module>
+        <module>code-spring</module>
     </modules>
 
     <dependencies>
