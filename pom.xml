@@ -19,6 +19,7 @@
         <module>code-redis</module>
         <module>code-dubbo</module>
         <module>code-spring</module>
+        <module>code-simple-ioc</module>
     </modules>
 
     <dependencies>
