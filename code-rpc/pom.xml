@@ -11,5 +11,11 @@
 
     <artifactId>code-rpc</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.thrift</groupId>
+            <artifactId>libthrift</artifactId>
+            <version>0.10.0</version>
+        </dependency>
+    </dependencies>
 </project>
