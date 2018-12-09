@@ -20,6 +20,8 @@
         <module>code-dubbo</module>
         <module>code-spring</module>
         <module>code-simple-ioc</module>
+        <module>code-kafka</module>
+        <module>code-mns</module>
     </modules>
 
     <dependencies>
