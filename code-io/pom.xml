@@ -11,5 +11,12 @@
 
     <artifactId>code-io</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.12.Final</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 </project>
